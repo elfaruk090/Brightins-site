@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="register">
+    <div class="container">
+        <!--Box 1-->
+        <div class="box">
+            <p>CURRANCY: <span>NGN</span></p>
+            <p>BANK: <span>Opay</span></p>
+            <p>ACC: <span>0000000000</span></p>
+            <p>NAME: <span>Rabiu Adam Rabiu</span></p>
+        </div>
+
+        <!--Box 2-->
+        <div class="box">
+        <form action="register">
+            <br>
+            <input type="text" name="fullname" placeholder="Enter Your Full Name">
+            <br>
+            <input type="text" name="emailid" placeholder="Enter Your Email Id">
+            <h3>Select Gender:</h3>
+            <input type="radio" name="gender" value="male">
+            <label for="male">Male</label>
+            <input type="radio" name="gender" value="female">
+            <label for="female">Female</label>
+            <input type="radio" name="gender" value="other">
+            <label for="other">Other</label>
+            <br>
+            <input type="password" name="password" placeholder="Create Password">
+            <br>
+            <input type="password" name="password" placeholder="Confirm Password">
+        </form>
+        </div>
+
+        <!--Box 3-->
+        <div class="box">
+            <input type="text" name="fullname" placeholder="Confirm Your Name">
+            <br>
+            <input type="text" name="emailid" placeholder="Confirm Your Email">
+            <br>
+            <input type="text" name="Sendername" placeholder="Enter Correct Sender Name">
+            <h3>Upload Your Reciept</h3>
+            <input type="file" name="reciept" id="file">
+            <br>
+
+            <button>Submit</button>
+            <h3>Registered? <a href="login.html">Login</a></h3>
+            <h3><a href="basic.html">Back</a></h3>
+        </div>
+    </div>
+</body>
+</html>
