@@ -5,7 +5,7 @@ body{
 
 /*Header*/
 header{
-    background-color: darkblue;
+    background-color: rgb(0, 140, 185);
     text-align: center;
     padding: 5px;
     position: fixed;
@@ -14,7 +14,7 @@ header{
     top: 0;
     left: 0;
     h1{
-        color: skyblue;
+        color: lightgreen;
         padding-top: 10px;
     }
 }
@@ -23,16 +23,16 @@ header{
 #sidebar{
     position: fixed;
     background-color: #36454f;
-    width: 250px;
+    width: 200px;
     height: 100%;
     top: 0;
-    left: -300px;
+    left: -200px;
     color: white;
     padding: 20px;
 }
 #sidebar h2{
-    color: red;
-    background-color: skyblue;
+    color: lightgreen;
+    background-color: rgb(0, 140, 185);
     padding: 20px;
     text-align: center;
 }
@@ -53,7 +53,7 @@ header{
 }
 .toggle-btn span{
     display: block;
-    background-color: red;
+    background-color: darkblue;
     width: 30px;
     height: 5px;
     margin: 5px;
@@ -65,15 +65,17 @@ header{
 /*Text Box*/
 .text-box{
     text-align: center;
-    color: red;
+    color: darkblue;
 }
 
 /*Index Style*/
 body.index{
-    .container{
-        text-align: center;
-        margin-top: 270px;
-    }
+    text-align: center;
+    height: 100%;
+    display: grid;
+    place-items: center;
+    justify-content: center;
+
     button{
         width: 200px;
         height: 80px;
@@ -101,34 +103,33 @@ body.basic, body.advance{
     height: 70vh; 
     border-radius: 25px;
     overflow: hidden;
-    border: solid 2px black; 
+    border: 1px solid; 
 }
 }
 
 /*Login Page Style*/
 body.login{
-    padding-top: 105px;
+    margin: 100px;
+    text-align: center;
+    justify-items: center;
     h3 a{
         text-decoration: none;
+        color: darkblue;
     }
     .container{
-        text-align: center;
-        background-color: skyblue;
+        width: 600px;
+        background-color: rgb(0, 140, 185);
         padding: 20px;
         border: 1px solid;
         border-radius: 15px;
-        margin-left: 300px;
-        margin-right: 300px;
     }
     input{
+        width: 300px;
+        height: 20px;
         padding: 15px;
-        padding-left: 40px;
-        padding-right: 40px;
+        border: 1px solid;
         border-radius: 10px;
         margin-bottom: 20px;
-    }
-    ::placeholder{
-        text-align: center;
     }
     button{
         width: 200px;
@@ -142,51 +143,53 @@ body.login{
 
 /*Register Page Style*/
 body.register{
-    padding-top: 105px;
-    
+    margin: 100px;
+    justify-items: center;
+    text-align: center;    
     h3 a{
         text-decoration: none;
+        color: darkblue;
     }
     .container{
         text-align: center;
-        border-radius: 15px;
-        margin-left: 300px;
-        margin-right: 300px;
+        width: 600px;
+        border-radius: 15px;    
     }
     .box{
-        background-color: skyblue;
-        margin-bottom: 40px;
+        background-color: rgb(0, 140, 185);
+        margin-bottom: 20px;
         padding: 20px;
-        padding-top: 40px;
         border: 1px solid;
         border-radius: 15px;
+        
     }
         p{
             text-align: left;
-            padding-left: 60px;
-            color: red;
-            font-size: 28px;
+            padding-left: 50px;
+            color: darkblue;
+            font-size: 24px;
             span{
-                color: blue;
+                color: lightgreen;
             }
     }
 
-
-    input{
+    #input{
+        width: 300px;
+        height: 20px;
         padding: 15px;
-        padding-left: 40px;
-        padding-right: 40px;
+        border: 1px solid;
         border-radius: 10px;
         margin-bottom: 20px;
     }
-    ::placeholder{
-        text-align: center;
+    #input-gender{
+        margin-bottom: 20px;
     }
     #file{
-        padding: 15px;
+        padding: 20px;
+        width: 300px;
         border-radius: 10px;
         margin-bottom: 20px;
-        background-color: red;
+        background-color: darkred;
     }
     button{
         width: 200px;
@@ -203,7 +206,7 @@ body.register{
 body.support, body.support-advance{
     padding-top: 105px;
     header{
-        background-color: darkblue;
+        background-color: rgb(0, 140, 185);
         text-align: center;
         padding: 5px;
         position: fixed;
@@ -254,165 +257,53 @@ body.support, body.support-advance{
         height: 60vh;
     }
 }
-
-/*Login Page Style*/
-body.login{
-    padding-top: 105px;
-    h3 a{
-        text-decoration: none;
-    }
-    .container{
-        text-align: center;
-        background-color: skyblue;
-        padding: 20px;
-        border: 1px solid;
-        border-radius: 15px;
-        margin-left: 100px;
-        margin-right: 100px;
-    }
-    input{
-        padding: 15px;
-        padding-left: 40px;
-        padding-right: 40px;
-        border-radius: 10px;
-        margin-bottom: 20px;
-    }
-    ::placeholder{
-        text-align: center;
-    }
-    button{
-        width: 200px;
-        height: 50px;
-        border-radius: 10px;
-        font-size: 18px;
-        color: white;
-        background-color: darkblue;
-    }
 }
 
-/*Register Page Style*/
-body.register{
-    padding-top: 105px;
-    
-    h3 a{
-        text-decoration: none;
-    }
-    .container{
-        text-align: center;
-        border-radius: 15px;
-        margin-left: 100px;
-        margin-right: 100px;
-    }
-    .box{
-        background-color: skyblue;
-        margin-bottom: 40px;
-        padding: 20px;
-        padding-top: 40px;
-        border: 1px solid;
-        border-radius: 15px;
-    }
-        p{
-            text-align: left;
-            padding-left: 60px;
-            color: red;
-            font-size: 28px;
-            span{
-                color: blue;
-            }
-    }
-
-
-    input{
-        padding: 15px;
-        padding-left: 40px;
-        padding-right: 40px;
-        border-radius: 10px;
-        margin-bottom: 20px;
-    }
-    ::placeholder{
-        text-align: center;
-    }
-    #file{
-        padding: 15px;
-        border-radius: 10px;
-        margin-bottom: 20px;
-        background-color: red;
-    }
-    button{
-        width: 200px;
-        height: 50px;
-        border-radius: 10px;
-        font-size: 18px;
-        color: white;
-        background-color: darkblue;
-    }
-}
-
-/*Support*/
-body.support, body.support-advance{
-
-    .container{
-        text-align: center;
-        margin: 10px;
-        padding: 20px;
-    }
-    .container input{
-        width: 400px;
-        padding: 20px;
-        margin-bottom: 20px;
-        border-radius: 20px;
-        border: 1px solid;
-    }
-    .container textarea{
-        width: 400px;
-        height: 150px;
-        padding: 20px;
-        margin-bottom: 20px;
-        border-radius: 20px;
-        border: 1px solid;
-    }
-}
-}
-
-/* For mobile devices (max-width: 568px) */
-@media (max-width: 568px){
+/* At Media For mobile devices*/
+@media (max-width: 580px){
 
     /*Basic Advance Style*/
     body.basic, body.advance{
     .container iframe {
-        width: 85vw;
-        height: 45vh; 
+        width: 90vw;
+        height: 50vh; 
     }
 }
 
 /*Login Page Style*/
 body.login{
-    padding-top: 80px;
+    padding-top: 100px;
+    margin: 50px;
+    text-align: center;
+    justify-items: center;
+    h3{
+        font-size: 18px;
+        
+    }
     h3 a{
         text-decoration: none;
+        color: darkblue;
     }
     .container{
-        text-align: center;
-        background-color: skyblue;
+        width: 350px;
+        background-color: rgb(0, 140, 185);
         padding: 20px;
         border: 1px solid;
         border-radius: 15px;
-        margin-left: 50px;
-        margin-right: 50px;
+        
     }
     input{
+        width: 150px;
+        height: 10px;
         padding: 15px;
-        padding-left: 30px;
-        padding-right: 30px;
+        border: 1px solid;
         border-radius: 10px;
         margin-bottom: 20px;
-    }
-    ::placeholder{
-        text-align: center;
+        background-color: #E0F7FA;
     }
     button{
-        width: 200px;
-        height: 50px;
+        width: 100px;
+        height: 40px;
         border-radius: 10px;
         font-size: 18px;
         color: white;
@@ -422,54 +313,62 @@ body.login{
 
 /*Register Page Style*/
 body.register{
-    padding-top: 80px;
-    
+padding-top: 100px;
+margin: 50px;
+    justify-items: center;
+    text-align: center;
+    h3{
+        font-size: 18px;
+    }    
     h3 a{
         text-decoration: none;
+        color: darkblue;
     }
     .container{
         text-align: center;
-        border-radius: 15px;
-        margin-left: 50px;
-        margin-right: 50px;
+        width: 350px;
+        border-radius: 15px;   
     }
     .box{
-        background-color: skyblue;
-        margin-bottom: 40px;
-        padding: 10px;
-        padding-top: 20px;
+        background-color: rgb(0, 140, 185);
+        margin-bottom: 20px;
+        padding: 20px;
         border: 1px solid;
         border-radius: 15px;
+        
     }
         p{
             text-align: left;
-            padding-left: 50px;
-            color: red;
-            font-size: 20px;
+            padding-left: 15px;
+            color: darkblue;
+            font-size: 18px;
             span{
-                color: blue;
+                color: lightgreen;
             }
     }
 
-    input{
+    #input{
+        width: 150px;
+        height: 10px;
         padding: 15px;
-        padding-left: 30px;
-        padding-right: 30px;
+        border: 1px solid;
         border-radius: 10px;
         margin-bottom: 20px;
+        background-color: #E0F7FA;
     }
-    ::placeholder{
-        text-align: center;
+    #input-gender{
+        margin-bottom: 20px;
     }
     #file{
-        padding: 15px;
+        padding: 10px;
+        width: 200px;
         border-radius: 10px;
         margin-bottom: 20px;
-        background-color: red;
+        background-color: darkred;
     }
     button{
-        width: 200px;
-        height: 50px;
+        width: 100px;
+        height: 40px;
         border-radius: 10px;
         font-size: 18px;
         color: white;
@@ -482,19 +381,19 @@ body.support, body.support-advance{
 
     .container{
         text-align: center;
-        margin: 10px;
+        margin: 5px;
         padding: 20px;
     }
     .container input{
-        width: 370px;
+        width: 300px;
         padding: 20px;
         margin-bottom: 20px;
         border-radius: 20px;
         border: 1px solid;
     }
     .container textarea{
-        width: 370px;
-        height: 125px;
+        width: 300px;
+        height: 120px;
         padding: 20px;
         margin-bottom: 20px;
         border-radius: 20px;

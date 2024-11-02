@@ -2,15 +2,17 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <title>Register</title>
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
 </head>
 <body class="register">
     <div class="container">
+        
         <!--Box 1-->
         <div class="box">
+            <h1>Register</h1>
             <p>CURRANCY: <span>NGN</span></p>
             <p>BANK: <span>Opay</span></p>
             <p>ACC: <span>0000000000</span></p>
@@ -19,39 +21,40 @@
 
         <!--Box 2-->
         <div class="box">
-        <form action="register">
+        <form action="register-form">
+            <input type="text" name="fullname" placeholder="Enter Your Full Name" id="input">
             <br>
-            <input type="text" name="fullname" placeholder="Enter Your Full Name">
+            <input type="text" name="emailid" placeholder="Enter Your Email Id" id="input">
             <br>
-            <input type="text" name="emailid" placeholder="Enter Your Email Id">
             <h3>Select Gender:</h3>
-            <input type="radio" name="gender" value="male">
+            <input type="radio" name="gender" value="male" id="input-gender">
             <label for="male">Male</label>
-            <input type="radio" name="gender" value="female">
+            <input type="radio" name="gender" value="female" d="input-gender">
             <label for="female">Female</label>
-            <input type="radio" name="gender" value="other">
-            <label for="other">Other</label>
+            <input type="radio" name="gender" value="other" d="input-gender">
+            <label for="other">Other</label>           
             <br>
-            <input type="password" name="password" placeholder="Create Password">
+            <input type="password" name="password" placeholder="Create Password" id="input">
             <br>
-            <input type="password" name="password" placeholder="Confirm Password">
+            <input type="password" name="password" placeholder="Confirm Password" id="input">
         </form>
         </div>
 
         <!--Box 3-->
         <div class="box">
-            <input type="text" name="fullname" placeholder="Confirm Your Name">
+            <form action="contact-form">
+            <input type="text" name="fullname" placeholder="Confirm Your Name" id="input">
             <br>
-            <input type="text" name="emailid" placeholder="Confirm Your Email">
+            <input type="text" name="emailid" placeholder="Confirm Your Email" id="input">
             <br>
-            <input type="text" name="Sendername" placeholder="Enter Correct Sender Name">
+            <input type="text" name="Sendername" placeholder="Enter Correct Sender Name" id="input">
             <h3>Upload Your Reciept</h3>
             <input type="file" name="reciept" id="file">
             <br>
 
             <button>Submit</button>
-            <h3>Registered? <a href="login.html">Login</a></h3>
-            <h3><a href="basic.html">Back</a></h3>
+            <h3>Registered? <a href="login.html">Login</a> or <a href="basic.html">Back</a></h3>
+            </form>
         </div>
     </div>
 </body>
