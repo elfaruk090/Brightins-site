@@ -4,8 +4,81 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <title>Support</title>
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="images/icon.jpeg" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
+
+    <style>
+        /*Support*/
+body.support-advance{
+    padding-top: 100px;
+    header{
+        background-color: rgb(0, 140, 185);
+        text-align: center;
+        padding: 5px;
+        position: fixed;
+        width: 100%;
+        height: 100px;
+        top: 0;
+        left: 0;
+        h2{
+            color: darkred;
+        }
+    }
+    .container{
+        text-align: center;
+        margin: 10px;
+        padding: 20px;
+    }
+    .container input{
+        width: 500px;
+        padding: 20px;
+        margin-bottom: 20px;
+        border-radius: 20px;
+        border: 1px solid;
+    }
+    .container textarea{
+        width: 500px;
+        height: 200px;
+        padding: 20px;
+        margin-bottom: 20px;
+        border-radius: 20px;
+        border: 1px solid;
+    }
+    .container button{
+        width: 200px;
+        padding: 10px;
+        border-radius: 20px;
+        color: white;
+        background-color: darkblue;
+    }
+}
+
+@media (max-width: 580px) {
+    /*Support*/
+body.support, body.support-advance{
+    .container{
+        text-align: center;
+        margin: 5px;
+        padding: 20px;
+    }
+    .container input{
+        width: 250px;
+        padding: 20px;
+        margin-bottom: 20px;
+        border-radius: 20px;
+        border: 1px solid;
+    }
+    .container textarea{
+        width: 250px;
+        height: 120px;
+        padding: 20px;
+        margin-bottom: 20px;
+        border-radius: 20px;
+        border: 1px solid;
+    }
+}
+}
+    </style>
 </head>
 <body class="support-advance">
 
@@ -21,14 +94,15 @@
         <span></span>
     </div>
 
-    <h2>Brightins</h2>
+    <h2>Support</h2>
     
     <ul>
         <li><a href="profile.html">Profile</a></li>
-        <li><a href="advance.html">Home</a></li>
-        <li><a href="#">News</a></li>
-        <li><a href="support-advance.html">Support</a></li>
+        <li><a href="home.html">Home</a></li>
         <li><a href="basic.html">Basic</a></li>
+        <li><a href="login.html">Advance</a></li>
+        <li><a href="news-advance.html">News</a></li>
+        <li><a href="support-advance.html">Support</a></li>
         <li><a href="index.html">Logout</a></li>
     </ul>
     </div>

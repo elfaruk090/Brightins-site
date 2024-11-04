@@ -1,9 +1,9 @@
 body{
-    background-color: #E0F7FA;
+    background-color: skyblue;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-/*Header*/
+/*Header For All*/
 header{
     background-color: rgb(0, 140, 185);
     text-align: center;
@@ -19,7 +19,7 @@ header{
     }
 }
 
-/*Sidebar*/
+/*Sidebar For All*/
 #sidebar{
     position: fixed;
     background-color: #36454f;
@@ -68,24 +68,9 @@ header{
     color: darkblue;
 }
 
-/*Index Style*/
-body.index{
-    text-align: center;
-    button{
-        margin-top: 40vh;
-        width: 200px;
-        height: 80px;
-        font-size: 26px;
-        border-radius: 10px;
-        color: white;
-        background-color: darkblue;
-    }
-}
-
 /*Basic Advance Style*/
 body.basic, body.advance{
-    padding-top: 105px;
-/*Container*/
+    padding-top: 100px;
 .container {
     text-align: center;    
     background-color: none;
@@ -102,149 +87,9 @@ body.basic, body.advance{
 }
 }
 
-/*Login Page Style*/
-body.login{
-    margin: 100px;
-    text-align: center;
-    justify-items: center;
-    h3 a{
-        text-decoration: none;
-        color: darkblue;
-    }
-    .container{
-        width: 600px;
-        background-color: rgb(0, 140, 185);
-        padding: 20px;
-        border: 1px solid;
-        border-radius: 15px;
-    }
-    input{
-        width: 300px;
-        height: 20px;
-        padding: 15px;
-        border: 1px solid;
-        border-radius: 10px;
-        margin-bottom: 20px;
-    }
-    button{
-        width: 200px;
-        height: 40px;
-        border-radius: 10px;
-        font-size: 18px;
-        color: white;
-        background-color: darkblue;
-    }
-}
-
-/*Register Page Style*/
-body.register{
-    margin: 100px;
-    justify-items: center;
-    text-align: center;    
-    h3 a{
-        text-decoration: none;
-        color: darkblue;
-    }
-    .container{
-        text-align: center;
-        width: 600px;
-        border-radius: 15px;    
-    }
-    .box{
-        background-color: rgb(0, 140, 185);
-        margin-bottom: 20px;
-        padding: 20px;
-        border: 1px solid;
-        border-radius: 15px;
-        
-    }
-        p{
-            text-align: left;
-            padding-left: 50px;
-            color: darkblue;
-            font-size: 24px;
-            span{
-                color: lightgreen;
-            }
-    }
-
-    #input{
-        width: 300px;
-        height: 20px;
-        padding: 15px;
-        border: 1px solid;
-        border-radius: 10px;
-        margin-bottom: 20px;
-    }
-    #input-gender{
-        margin-bottom: 20px;
-    }
-    #file{
-        padding: 20px;
-        width: 300px;
-        border-radius: 10px;
-        margin-bottom: 20px;
-        background-color: darkred;
-    }
-    button{
-        width: 200px;
-        height: 40px;
-        border-radius: 10px;
-        font-size: 18px;
-        color: white;
-        background-color: darkblue;
-    }
-}
-
-
-/*Support*/
-body.support, body.support-advance{
-    padding-top: 105px;
-    header{
-        background-color: rgb(0, 140, 185);
-        text-align: center;
-        padding: 5px;
-        position: fixed;
-        width: 100%;
-        height: 100px;
-        top: 0;
-        left: 0;
-        h2{
-            color: darkred;
-        }
-    }
-    .container{
-        text-align: center;
-        margin: 10px;
-        padding: 20px;
-    }
-    .container input{
-        width: 500px;
-        padding: 20px;
-        margin-bottom: 20px;
-        border-radius: 20px;
-        border: 1px solid;
-    }
-    .container textarea{
-        width: 500px;
-        height: 200px;
-        padding: 20px;
-        margin-bottom: 20px;
-        border-radius: 20px;
-        border: 1px solid;
-    }
-    .container button{
-        width: 200px;
-        padding: 10px;
-        border-radius: 20px;
-        color: white;
-        background-color: darkblue;
-    }
-}
-
 /* For tablets and smaller screens (max-width: 1000px) */
 @media (max-width: 1000px) {
-
+    
     /*Basic Advance Style*/
     body.basic, body.advance{
     .container iframe {
@@ -264,151 +109,4 @@ body.support, body.support-advance{
         height: 50vh; 
     }
 }
-
-/*Index Style*/
-body.index{
-    text-align: center;
-    width: 100%;
-    button{
-        margin-top: 40vh;
-        width: 150px;
-        height: 60px;
-        font-size: 26px;
-        border-radius: 10px;
-        color: white;
-        background-color: darkblue;
-    }
-}
-
-/*Login Page Style*/
-body.login{
-    padding-top: 100px;
-    margin: 50px;
-    text-align: center;
-    justify-items: center;
-    h3{
-        font-size: 18px;
-        
-    }
-    h3 a{
-        text-decoration: none;
-        color: darkblue;
-    }
-    .container{
-        width: 300px;
-        background-color: rgb(0, 140, 185);
-        padding: 20px;
-        border: 1px solid;
-        border-radius: 15px;
-        
-    }
-    input{
-        width: 150px;
-        height: 10px;
-        padding: 15px;
-        border: 1px solid;
-        border-radius: 10px;
-        margin-bottom: 20px;
-        background-color: #E0F7FA;
-    }
-    button{
-        width: 100px;
-        height: 40px;
-        border-radius: 10px;
-        font-size: 18px;
-        color: white;
-        background-color: darkblue;
-    }
-}
-
-/*Register Page Style*/
-body.register{
-padding-top: 100px;
-margin: 50px;
-    justify-items: center;
-    text-align: center;
-    h3{
-        font-size: 18px;
-    }    
-    h3 a{
-        text-decoration: none;
-        color: darkblue;
-    }
-    .container{
-        text-align: center;
-        width: 300px;
-        border-radius: 15px;   
-    }
-    .box{
-        background-color: rgb(0, 140, 185);
-        margin-bottom: 20px;
-        padding: 20px;
-        border: 1px solid;
-        border-radius: 15px;
-        
-    }
-        p{
-            text-align: left;
-            padding-left: 15px;
-            color: darkblue;
-            font-size: 18px;
-            span{
-                color: lightgreen;
-            }
-    }
-
-    #input{
-        width: 150px;
-        height: 10px;
-        padding: 15px;
-        border: 1px solid;
-        border-radius: 10px;
-        margin-bottom: 20px;
-        background-color: #E0F7FA;
-    }
-    #input-gender{
-        margin-bottom: 20px;
-    }
-    #file{
-        padding: 10px;
-        width: 200px;
-        border-radius: 10px;
-        margin-bottom: 20px;
-        background-color: darkred;
-    }
-    button{
-        width: 100px;
-        height: 40px;
-        border-radius: 10px;
-        font-size: 18px;
-        color: white;
-        background-color: darkblue;
-    }
-}
-
-/*Support*/
-body.support, body.support-advance{
-
-    .container{
-        text-align: center;
-        margin: 5px;
-        padding: 20px;
-    }
-    .container input{
-        width: 300px;
-        padding: 20px;
-        margin-bottom: 20px;
-        border-radius: 20px;
-        border: 1px solid;
-    }
-    .container textarea{
-        width: 300px;
-        height: 120px;
-        padding: 20px;
-        margin-bottom: 20px;
-        border-radius: 20px;
-        border: 1px solid;
-    }
-}
-
 }
