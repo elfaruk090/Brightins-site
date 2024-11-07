@@ -75,6 +75,7 @@ body.basic, body.advance{
     text-align: center;    
     background-color: none;
     max-width: 100%;
+    width: auto;
     height: auto;
 }
 .container iframe {
