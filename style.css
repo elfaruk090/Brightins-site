@@ -29,6 +29,7 @@ header{
     left: -250px;
     color: white;
     padding: 20px;
+    overflow: hidden scroll;
 }
 #sidebar h2{
     color: lightgreen;
@@ -40,7 +41,7 @@ header{
     padding: 25px;
     border-bottom: 1px solid white;
     text-decoration: none;
-    display: block;    
+    display: block;  
 }
 #sidebar a{
     color: white;
