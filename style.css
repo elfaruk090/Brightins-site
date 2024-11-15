@@ -82,7 +82,7 @@ body.basic, body.advance{
 .container iframe {
     margin: auto;
     width: 55vw; 
-    height: 70vh; 
+    height: 60vh; 
     border-radius: 25px;
     overflow: hidden;
     border: 1px solid; 
@@ -96,7 +96,7 @@ body.basic, body.advance{
     body.basic, body.advance{
     .container iframe {
         width: 75vw;
-        height: 70vh;
+        height: 60vh;
     }
 }
 }
@@ -108,7 +108,7 @@ body.basic, body.advance{
     body.basic, body.advance{
     .container iframe {
         width: 75vw;
-        height: 70vh; 
+        height: 60vh; 
     }
 }
 }
