@@ -1,11 +1,11 @@
 body{
-    background-color: skyblue;
+    background-color: whitesmoke;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 /*Header For All*/
 header{
-    background-color: rgb(0, 140, 185);
+    background-color: blue;
     text-align: center;
     padding: 5px;
     position: fixed;
@@ -14,7 +14,7 @@ header{
     top: 0;
     left: 0;
     h1{
-        color: lightgreen;
+        color: whitesmoke;
         padding-top: 10px;
     }
 }
@@ -22,28 +22,29 @@ header{
 /*Sidebar For All*/
 #sidebar{
     position: fixed;
-    background-color: #36454f;
+    background-color: grey;
     width: 200px;
     height: 100%;
     top: 0;
     left: -250px;
-    color: white;
+    color: blue;
     padding: 20px;
 }
 #sidebar h2{
-    color: lightgreen;
-    background-color: rgb(0, 140, 185);
+    color: whitesmoke;
+    background-color: blue;
     padding: 20px;
     text-align: center;
 }
 #sidebar ul li{
     padding: 25px;
-    border-bottom: 1px solid white;
+    border-bottom: 1px solid whitesmoke;
     text-decoration: none;
-    display: block;  
+    display: block;
+    text-align: start;  
 }
 #sidebar a{
-    color: white;
+    color: whitesmoke;
     text-decoration: none;
 }
 .toggle-btn{
@@ -53,7 +54,7 @@ header{
 }
 .toggle-btn span{
     display: block;
-    background-color: darkblue;
+    background-color: whitesmoke;
     width: 30px;
     height: 5px;
     margin: 5px;
@@ -65,7 +66,7 @@ header{
 /*Text Box*/
 .text-box{
     text-align: center;
-    color: darkblue;
+    color: blue;
 }
 
 /*Basic Advance Style*/
@@ -79,8 +80,8 @@ body.basic, body.advance{
     height: auto;
 }
 .container iframe {
-    margin: 15px;
-    width: 120vh; 
+    margin: auto;
+    width: 55vw; 
     height: 70vh; 
     border-radius: 25px;
     overflow: hidden;
@@ -94,8 +95,8 @@ body.basic, body.advance{
     /*Basic Advance Style*/
     body.basic, body.advance{
     .container iframe {
-        width: 90vw;
-        height: 60vh;
+        width: 75vw;
+        height: 70vh;
     }
 }
 }
@@ -106,8 +107,8 @@ body.basic, body.advance{
     /*Basic Advance Style*/
     body.basic, body.advance{
     .container iframe {
-        width: 90vw;
-        height: 50vh; 
+        width: 75vw;
+        height: 70vh; 
     }
 }
 }
